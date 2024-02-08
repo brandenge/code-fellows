@@ -1,0 +1,70 @@
+/* ************************ CAROUSEL STYLING ************************ */
+
+.Carousel {
+  overflow: hidden;
+  border-radius: 8px;
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.carousel-indicators {
+  margin-bottom: 58px !important;
+}
+
+.carousel-caption {
+  border-radius: 8px;
+  padding: 24px !important;
+  background-color: #121212cc;
+  color: white !important;
+  bottom: 84px !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  height: 510px;
+  background-color: #12121212 !important;
+}
+
+.Carousel_buttonRow {
+  background-color: #242424;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Carousel_deleteButton,
+.Carousel_editButton {
+  border-radius: 100px !important;
+  padding: 0 !important;
+  width: 40px;
+  height: 40px;
+  box-sizing: content-box;
+  margin-right: 16px;
+}
+
+/* 
+.Carousel_deleteButton {}
+
+.Carousel_editButton {} */
+
+.Carousel_bookDescription {
+  max-height: 10em;
+  overflow-y: scroll;
+  scrollbar-width: 0;
+}
+
+.Carousel_bookDescription::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* ************************ GRID STYLING ************************ */
+
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}

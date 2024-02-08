@@ -1,0 +1,68 @@
+@import '../../app';
+
+$backgroundColor: #efefef;
+$radius: 40%;
+$formWidth: 600px;
+
+form {
+  display: inline-block;
+  margin: 0 auto;
+  min-width: $formWidth;
+
+  label {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+    input[type="text"] {
+      min-width: $formWidth;
+    }
+
+    textarea {
+      min-width: $formWidth;
+    }
+
+    span {
+      margin: 5px;
+    }
+
+    button {
+      margin: 5px;
+    }
+
+    &.methods {
+      min-width: $formWidth;
+      margin: 10px;
+
+      span {
+        cursor: pointer;
+        margin-right: 1rem;
+        padding: .25rem .5rem;
+
+        &:hover, &.active {
+          background: #fff;
+        }
+      }
+
+      #get {
+        background-color: rgb(0, 181, 0);
+      }
+
+      #post {
+        background-color: rgb(193, 210, 0);
+      }
+
+      #put {
+        background-color: rgb(209, 156, 0);
+      }
+
+      #delete {
+        background-color: rgb(214, 0, 0);
+      }
+    }
+  }
+}
+
+div {
+  margin: 0 auto;
+}

@@ -1,0 +1,127 @@
+{
+    "basic_info": {
+      "description_header": "Hi, my name is Branden.",
+      "description": "I am a software engineer with a passion for building robust software, creating amazing user experiences, and having a high impact in the areas of entrepreneurship, automation, education, writing, and games. I acquired these passions with a diverse background as a Marine Corps veteran and work experience in a variety of roles at the intersection of business and technology. This has given me a well-rounded foundation in understanding people, teams, and business. But through my diverse experiences I learned that I can have the greatest impact in all of these areas as a software engineer. Ever since I have fallen in love with engineering, I have dedicated my life to writing clean code and pursuing a life-long journey of continuously learning and improving as a programmer. I am a curious and ambitious learner in a wide range of fields, including web development, networking, cloud computing, DevOps, databases, and game development. I am hungry for constructive feedback, and am a leader in creating positive team dynamics that promote grit and a growth mindset in myself and others. In the future, I will dedicate my passions towards building my own companies. But until then, I look forward to dedicating those passions towards continuing to build an already great company with a great team today.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "To-Do List",
+        "startDate": "2022",
+        "description": "A to-do list application that saves a collection of lists and a collection of tasks for each list. All data is saved in a single nested data structure which is an array of obects that represent to-do lists, which further contain an array of tasks within each to-do list object. This object is saved on the user's computer locally using the Storage API in the browser (using localStorage methods). This serves as a simple database so that the data persists across sessions and page refreshes without the use of a separate traditional database.",
+        "images": [
+          "images/portfolio/to-do-list/p1.png",
+          "images/portfolio/to-do-list/p2.png"
+        ],
+        "url": "github.com/brandenge/to-do-list",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          }
+        ]
+      },
+      {
+        "title": "Portfolio Website",
+        "startDate": "2022",
+        "description": "I built this portfolio website with React.",
+        "images": [
+          "images/portfolio/portfolio-website/p1.png",
+          "images/portfolio/portfolio-website/p2.png"
+        ],
+        "url": "https://github.com/brandenge/portfolio",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          }
+        ]
+      },
+      {
+        "title": "Color Changer",
+        "startDate": "2021",
+        "description": "A simple website demonstrating asynchronous JavaScript by cycling colors with the text and background.",
+        "images": [
+          "images/portfolio/color-changer/p1.png",
+          "images/portfolio/color-changer/p2.png",
+          "images/portfolio/color-changer/p3.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Code Fellows",
+        "title": "Student Software Engineer",
+        "years": "August 2022 - present",
+        "mainTech": [
+          "React"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Bootstrap",
+          "Git",
+          "GitHub",
+          "Command line",
+          "HTML5",
+          "CSS3"
+        ]
+      },
+      {
+        "company": "Self-Learner",
+        "title": "Student Software Engineer",
+        "years": "May 2021 - August 2022",
+        "mainTech": [
+          "JavaScript"
+        ],
+        "technologies": [
+          "Git",
+          "GitHub",
+          "Command line",
+          "Ruby",
+          "Python",
+          "HTML5",
+          "CSS3"
+        ]
+      }
+    ]
+  }

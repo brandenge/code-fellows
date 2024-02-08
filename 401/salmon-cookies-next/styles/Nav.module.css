@@ -1,0 +1,29 @@
+.nav {
+    height: 80px;
+    padding: 10px;
+    background: rgb(223, 78, 11);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: larger;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+    color: azure;
+}
+
+.nav ul li a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+}

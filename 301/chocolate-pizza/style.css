@@ -1,0 +1,96 @@
+body {
+  max-width: 750px;
+}
+
+/* Header */
+
+header {
+  border-bottom: 15px lightgrey solid;
+}
+
+#title-logo h1 {
+  display: inline-block;
+}
+
+#title-logo p {
+  display: inline-block;
+}
+
+nav {
+  position: relative;
+  right: 0px;
+}
+
+#social-media {
+  display: inline-block;
+}
+
+#rss-email {
+  display: inline-block;
+}
+
+/* Main */
+
+#main-header h2 {
+  margin: none;
+}
+
+#main-header p {
+  margin: none;
+}
+
+#print {
+  float: right;
+}
+
+#print p {
+  display: inline;
+  font-size: 14px;
+  color: gray;
+}
+
+#print img {
+
+}
+
+#main-img {
+  max-width: 750px;
+  max-height: auto;
+}
+
+#description {
+
+}
+
+#description p {
+  text-indent: 1.7em;
+}
+
+ul {
+  list-style-type: none;
+  background-image: url("assets/list-bg.png");
+}
+
+#author-bio {
+  border-top: 15px lightgrey solid;
+}
+
+:checked + label {
+  text-decoration-line: line-through;
+}
+
+button {
+  height: 40px;
+  width: 140px;
+  background-color: rgb(185, 95, 59);
+  color: white;
+  border: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Footer */
+
+footer {
+text-align: center;
+color: gray
+}

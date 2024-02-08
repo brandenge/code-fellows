@@ -1,0 +1,141 @@
+.parentBox {
+  display: flex;
+  flex-direction: row;
+  flex-flow: column wrap;
+  position:absolute;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  padding: 5%;
+  padding-left: 12%;
+  padding-right: 12%;
+  background: #dbecf1;
+}
+
+/* .searchForm {
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.5vh;
+  display:inline-flex;
+  width: 50%;
+}
+
+.formButton {
+  align-self: center;
+  padding: 1rem;
+  margin-top: .75vw;
+  width: 8vw;
+  height: 2vw;
+  border-color: whitesmoke;
+  color: whitesmoke;
+  background-color: rgb(48, 60, 76);
+} */
+
+.formButton:hover {
+  background: rgb(14, 14, 18);
+  border: none;
+}
+
+.card {
+  display: flex;
+  flex-shrink: 3;
+  color: black;
+  justify-content: space-evenly;
+  align-content: center;
+  position:relative;
+  flex-direction: column;
+}
+
+.card:hover
+{
+   -webkit-transform: scale(1);
+   -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.cardHeader {
+  width: 90%;
+  height: 5vh;
+  display: flex;
+  padding-top: .25vw;
+}
+
+.exitButton {
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+.exitButton:hover
+{
+  color: #10dc7a;
+}
+
+.cardImg {
+  height: 18vh;
+  display: block;
+}
+
+.cardContent {
+  display: block;
+  color: black;
+  font-size: 1.5vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.cardBody {
+  display: block;
+  height: 4vh;
+  align-self: center;
+  margin: .25vw;
+
+}
+
+.cardText {
+  font-size: 1vh;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.cardFoot {
+  align-self: flex-end;
+  justify-content: left;
+  align-content: space-between;
+}
+
+.heartButton {
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+
+.queueButton {
+  bottom:0;
+  left:0;
+}
+
+.queueButton:hover {
+color: rgb(28, 155, 206);
+}
+
+.deleteButton {
+  bottom:0;
+  right:0;
+}
+
+.deleteButton:hover {
+  color: red;
+}
+
+
+
+.heartButton:hover
+{
+  color: #f19c9c;
+}
+
+.Pagination {
+  margin: 2vw;
+}
+
+

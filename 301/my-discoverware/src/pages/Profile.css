@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box !important;
+}
+
+.sign-in {
+    display: grid;
+    justify-content: center;
+    width:40%;
+    height: 40%;
+    background-color: rgba(245, 245, 245, 0.8);
+    margin: auto;
+    margin-top: 30vh;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+}
+
+.profile-container {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    width: 98vw;
+    max-width: 1400px;
+    min-height: 90vh;
+    overflow-x: hidden;
+    background-color: rgba(245, 245, 245, 0.8);
+    margin: auto;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.profile-information {
+    position: relative;
+    margin: 10px;
+}
+
+.profile-img {
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+.favorite-locations {
+    display: block;
+    margin: 10px;
+}
+
+.favorites-card {
+    position: relative;
+    display: block;
+    border: 1px solid black;
+    border-radius: .5rem;
+    width: 98%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.notes {
+    width: 60%;
+    margin-left: 2rem;
+}
+
+.carousel-container {
+    position: absolute !important;
+    border-radius: 0.5rem;
+    top: 7% !important;
+    right: 3% !important;
+    display: grid;
+    width: 20rem;
+}
+
+.image-carousel {
+    justify-self: center !important;
+    align-self: center !important;
+    border-radius: 0.5rem;
+    width: 20rem !important;
+    height: 11rem !important;
+    overflow-y: hidden;
+}
+
+.location-image {
+    width: 100% !important;
+    border-radius: 0.5rem;
+    justify-self: center !important;
+    align-self: center !important;
+}
+
+.modal-title {
+    margin: 0 auto;
+}
+
+.modal-image {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.modal-dialogue {
+    width: 100% !important;
+    max-width: 97vw !important;
+    margin: 0 !important;
+}
+
+.update-button-group {
+    width: fit-content;
+    margin: 1rem auto 0 !important;
+}
+
+.image-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+    gap: 3px;
+    overflow-x: scroll;
+}
+
+.image-item {
+    max-height: 7rem;
+    width: auto;
+}
+
+.button {
+    margin: 0 0.2rem;
+}
